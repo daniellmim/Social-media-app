@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+test-results/
+tmp/
+.env
+.env.development
+.env.production
+yarn.lock
+package-lock.json
