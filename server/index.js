@@ -64,8 +64,8 @@ mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
-    app.listen(PORT, ()=> console.log('Server Port: ', PORT));
+    app.listen(PORT, ()=> console.log(`Server Port: ${PORT}`));
     // User.insertMany(users);
     // Post.insertMany(posts);
 })
-.catch((error) => console.log('Error: ', error));
+.catch((error) => console.log(`Error: ${error}`));
