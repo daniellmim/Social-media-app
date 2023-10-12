@@ -4,7 +4,7 @@ const UserImage = ({ image, size = "60px"}) => {
   return(
     <Box>
       <img 
-      style = {{ objectFit:"cover", bosderRadius:"50%"}}
+      style = {{ objectFit:"cover", borderRadius:"50%"}}
       width ={size}
       height={size}
       alt = "user"
